@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-color: #eff2ff;
+}
+nav div{
+    background-color: #FFF159;
+    display: flex;
+   
+    justify-content: space-around;
+    padding: 10px;
+}
+ li a:hover{
+    color: red;
+}
+li a{
+    color: blue;
+}
+section{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    align-items: center;
+    height: 500px;
+}
+
+.precio{
+    width: 50%;
+    border:  0.5px solid gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    height: 100%;
+    border-radius: 12px;
+    align-items: center;
+    
+}
+.precio h2,
+.precio p,
+.precio button,
+.precio h3{
+margin: 20px;
+
+}
+button{
+
+    padding: 15px;
+    background-color: blue;
+    border-radius: 15px;
+    width: 50%;
+    font-size: 20px;
+
+}
+button:hover{
+    background-color: green;
+}
+
+button a{
+    color: white;
+    text-transform: uppercase;
+}
+h3{
+    color: green;
+    font-size: 25px;
+}
+h2{
+font-size: 35px;
+color: blue;
+text-transform: uppercase;
+}
+
+.imagen{
+    overflow: hidden;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagen img{
+   width: 80%;
+   transition: all 0.5s ease-in-out;
+   
+}
+.imagen img:hover{
+    
+    transform: scale(1.2);
+    
+}
+
+
